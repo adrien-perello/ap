@@ -2,5 +2,5 @@
 layout: categories
 title: Publications
 icon: fas fa-copy
-order: 1
+order: 2
 ---
