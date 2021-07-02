@@ -1,6 +1,6 @@
 ---
 title: About
-icon: fas user-alt
+icon: fas fa-user-alt
 order: 4
 ---
 
