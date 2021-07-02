@@ -1,6 +1,6 @@
 ---
 layout: categories
-title: Categories
+title: Publications
 icon: fas fa-copy
 order: 1
 ---
