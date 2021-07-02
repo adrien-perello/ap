@@ -1,5 +1,5 @@
 ---
-layout: tags
+layout: About
 title: Research
 icon: fas fa-flask
 order: 1
