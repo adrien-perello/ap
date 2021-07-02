@@ -8,3 +8,25 @@
   // background-attachment: scroll;
   background-repeat: round;
 }
+
+@media all and (min-width: 1650px) {
+  #sidebar {
+    .profile-wrapper {
+      %profile-ml {
+        margin-left: 4.5rem;
+      }
+
+      ul {
+        padding-left: 2.5rem;
+      }
+    }
+
+    .sidebar-bottom {
+      padding-left: 3.5rem;
+    }
+  }
+}
+
+
+
+    
