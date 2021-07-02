@@ -9,7 +9,7 @@
   background-repeat: round;
 }
 
-@media (min-width: 1650px) {
+@media all and (min-width: 1650px) {
   #sidebar {
     .profile-wrapper {
       %profile-ml {
@@ -18,12 +18,12 @@
     }
 
     ul {
-      padding-left: 6rem;
+      padding-left: 8rem;
     }
 
 
     .sidebar-bottom {
-      padding-left: 6rem;
+      padding-left: 8rem;
     }
   }
 }
