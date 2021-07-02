@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: research
+title: Research
 icon: fas fa-flask
-order: 2
+order: 1
 ---
