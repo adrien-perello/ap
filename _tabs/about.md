@@ -1,6 +1,6 @@
 ---
 title: About
-icon: fas fa-brain
+icon: fas user-alt
 order: 4
 ---
 
