@@ -9,7 +9,7 @@
   background-repeat: round;
 }
 
-@media all and (min-width: 1650px) {
+@media (min-width: 1650px) {
   #sidebar {
     .profile-wrapper {
       %profile-ml {
