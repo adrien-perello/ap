@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-@mixin light-scheme {
-
-  /* Sidebar */
-  --sidebar-bg: url("../img/bg.jpg");
+#sidebar {
+  background: url("../img/bg.jpg");
 }
