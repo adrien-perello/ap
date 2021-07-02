@@ -3,4 +3,8 @@
 
 @import "{{ site.theme }}";
 
-// add your style below
+@mixin light-scheme {
+
+  /* Sidebar */
+  --sidebar-bg: url("../img/bg.jpg");
+}
