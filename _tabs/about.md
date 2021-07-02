@@ -1,6 +1,6 @@
 ---
 title: About
-icon: fas fa-info
+icon: fas fa-brain
 order: 4
 ---
 
