@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Tags
-icon: fas fa-tags
+title: Research
+icon: fas fa-project-diagram
 order: 2
 ---
