@@ -4,5 +4,6 @@ icon: fas fa-info
 order: 4
 ---
 
+# About me
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+Hi, I'm Adrien,...
