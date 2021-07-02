@@ -1,6 +1,6 @@
 ---
 layout: archives
-title: Notes
+title: My notes
 icon: fas fa-edit
 order: 3
 ---
