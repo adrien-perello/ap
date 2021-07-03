@@ -1,6 +1,8 @@
 ---
 ---
 
+$sidebar-width-large: 500px;
+
 @import "{{ site.theme }}";
 
 #sidebar {
@@ -10,45 +12,45 @@
 }
 
 @media all and (min-width: 1650px) {
-  #main-wrapper {
-    margin-left: 500px;
-  }
+//   #main-wrapper {
+//     margin-left: 500px;
+//   }
 
-  #topbar-wrapper {
-    left: $sidebar-width-large;
-  }
+//   #topbar-wrapper {
+//     left: $sidebar-width-large;
+//   }
 
   #sidebar {
-    width: 500px;
+//     width: 500px;
 
     .profile-wrapper {
       %profile-ml {
-        margin-left: 9rem;
+        margin-left: 15rem;
       }
     }
 
     ul {
-      padding-left: 7rem;
+      padding-left: 13rem;
     }
 
     .sidebar-bottom {
-      padding-left: 7rem;
+      padding-left: 13rem;
     }
   }
 }
 
 @media all and (min-width: 1700px) {
-  #topbar-wrapper {
-    padding-right: calc(100% - 500px - (1920px - 500px));
-  }
+//   #topbar-wrapper {
+//     padding-right: calc(100% - 500px - (1920px - 500px));
+//   }
 
-  footer {
-    padding-right: calc(100% - 500px - 1180px);
-  }
+//   footer {
+//     padding-right: calc(100% - 500px - 1180px);
+//   }
 
-  @media (min-width: 1920px) {
-    #search-result-wrapper {
-      padding-right: calc(100% - 500px - 1180px);
-    }
-  }
+//   @media (min-width: 1920px) {
+//     #search-result-wrapper {
+//       padding-right: calc(100% - 500px - 1180px);
+//     }
+//   }
 }
