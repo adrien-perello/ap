@@ -3,7 +3,7 @@
 
 $sidebar-width-large: 500px;
 
-@import "{{ site.theme }}";
+@import "{{ site.theme }}", "variables";
 
 #sidebar {
   background: url("../img/bg.jpg");
