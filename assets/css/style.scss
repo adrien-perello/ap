@@ -52,51 +52,51 @@ $sidebar-width-large: 350px;
 // -------------------------------
 // -------- 1650px < SIZE --------
 // ------------------------------
-@media all and (min-width: 1650px) {
-  #main-wrapper {
-    margin-left: $sidebar-width-large;
-  }
+// @media all and (min-width: 1650px) {
+//   #main-wrapper {
+//     margin-left: $sidebar-width-large;
+//   }
 
-  #topbar-wrapper {
-    left: $sidebar-width-large;
-  }
+//   #topbar-wrapper {
+//     left: $sidebar-width-large;
+//   }
 
-  #sidebar {
-    width: $sidebar-width-large;
+//   #sidebar {
+//     width: $sidebar-width-large;
 
-    .profile-wrapper {
-      %profile-ml {
-        margin-left: 15rem;
-      }
-    }
+//     .profile-wrapper {
+//       %profile-ml {
+//         margin-left: 15rem;
+//       }
+//     }
 
-    ul {
-      padding-left: 13rem;
-    }
+//     ul {
+//       padding-left: 13rem;
+//     }
 
-    .sidebar-bottom {
-      padding-left: 13rem;
-    }
-  }
-}
+//     .sidebar-bottom {
+//       padding-left: 13rem;
+//     }
+//   }
+// }
 
 
 // -------------------------------
 // -------- 1700px < SIZE --------
 // -------------------------------
-@media all and (min-width: 1700px) {
-  #topbar-wrapper {
-    padding-right: calc(100% - #{$sidebar-width-large} - (1920px - 500px));
-  }
+// @media all and (min-width: 1700px) {
+//   #topbar-wrapper {
+//     padding-right: calc(100% - #{$sidebar-width-large} - (1920px - 500px));
+//   }
 
-  footer {
-    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
-  }
+//   footer {
+//     padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+//   }
 
-  @media (min-width: 1920px) {
-    #search-result-wrapper {
-      padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
-    }
-  }
-}
+//   @media (min-width: 1920px) {
+//     #search-result-wrapper {
+//       padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+//     }
+//   }
+// }
 
