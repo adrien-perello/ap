@@ -132,6 +132,8 @@ defaults:
       dynamic_title: true    # Hide title in mobile screens.
 
 sass:
+  load_paths:
+          - _sass
   style: compressed
 
 compress_html:
