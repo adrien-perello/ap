@@ -8,9 +8,35 @@ $sidebar-width-medium: 390px;
 $sidebar-width-large: 525px;
 
 #sidebar {
+  width: $sidebar-width-medium;
   background: url("../img/bg.jpg");
   // background-attachment: scroll;
   background-repeat: round;
+}
+
+
+@media all and (max-width: 849px) {
+  
+  [#{$sidebar-display}] {
+    #topbar-wrapper,
+    #main-wrapper {
+      transform: translateX(#{$sidebar-width-medium});
+    }
+
+  }
+  
+    #sidebar {
+    transform: translateX(-#{$sidebar-width-medium}); // hide
+    -webkit-transform: translateX(-#{$sidebar-width-medium});
+  }
+}
+
+
+
+@media all and (min-width: 850px) {
+  #main-wrapper {
+    margin-left: $sidebar-width-medium;
+  }
 }
 
 @media all and (min-width: 1650px) {
