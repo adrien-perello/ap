@@ -4,13 +4,13 @@
 
 @import "{{ site.theme }}";
 
+
 $sidebar-width-medium: 260px;
 $sidebar-width-large: 350px;
 
 
 #sidebar {
-  width: $sidebar-width-medium:
-  background: url("../img/bg.jpg");
+  width: $sidebar-width-medium: background: url("../img/bg.jpg");
   // background-attachment: scroll;
   background-repeat: round;
 }
@@ -92,11 +92,11 @@ $sidebar-width-large: 350px;
   footer {
     padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
   }
+}
 
-  @media (min-width: 1920px) {
-    #search-result-wrapper {
-      padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
-    }
+@media (min-width: 1920px) {
+  #search-result-wrapper {
+    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
   }
 }
 
