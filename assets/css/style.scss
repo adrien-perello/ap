@@ -8,17 +8,16 @@ $sidebar-width-medium: 390px;
 $sidebar-width-large: 525px;
 
 
-
 #sidebar {
-//   width: $sidebar-width-medium;
+  width: $sidebar-width-medium;
   background: url("../img/bg.jpg");
   // background-attachment: scroll;
   background-repeat: round;
 }
 
-// #topbar-wrapper {
-//   left: $sidebar-width-medium;
-// }
+#topbar-wrapper {
+  left: $sidebar-width-medium;
+}
 
 
 // ------------------------------
@@ -26,12 +25,14 @@ $sidebar-width-large: 525px;
 // ------------------------------
 @media all and (max-width: 849px) {
   [#{$sidebar-display}] {
+
     #topbar-wrapper,
     #main-wrapper {
       transform: translateX(#{$sidebar-width-medium});
     }
   }
-    #sidebar {
+
+  #sidebar {
     transform: translateX(-#{$sidebar-width-medium}); // hide
     -webkit-transform: translateX(-#{$sidebar-width-medium});
   }
@@ -98,3 +99,4 @@ $sidebar-width-large: 525px;
     }
   }
 }
+
