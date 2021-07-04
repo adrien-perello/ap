@@ -10,7 +10,8 @@ $sidebar-width-large: 350px;
 
 
 #sidebar {
-  width: $sidebar-width-medium: background: url("../img/bg.jpg");
+  width: $sidebar-width-medium;
+  background: url("../img/bg.jpg");
   // background-attachment: scroll;
   background-repeat: round;
 }
