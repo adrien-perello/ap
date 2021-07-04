@@ -84,19 +84,19 @@ $sidebar-width-large: 350px;
 // -------------------------------
 // -------- 1700px < SIZE --------
 // -------------------------------
-// @media all and (min-width: 1700px) {
-//   #topbar-wrapper {
-//     padding-right: calc(100% - #{$sidebar-width-large} - (1920px - 500px));
-//   }
+@media all and (min-width: 1700px) {
+  #topbar-wrapper {
+    padding-right: calc(100% - #{$sidebar-width-large} - (1920px - 500px));
+  }
 
-//   footer {
-//     padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
-//   }
+  footer {
+    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+  }
 
-//   @media (min-width: 1920px) {
-//     #search-result-wrapper {
-//       padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
-//     }
-//   }
-// }
+  @media (min-width: 1920px) {
+    #search-result-wrapper {
+      padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+    }
+  }
+}
 
