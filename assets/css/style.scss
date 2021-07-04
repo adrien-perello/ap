@@ -9,44 +9,44 @@ $sidebar-width-large: 350px;
 
 
 #sidebar {
-//   width: $sidebar-width-medium:
+  width: $sidebar-width-medium:
   background: url("../img/bg.jpg");
   // background-attachment: scroll;
   background-repeat: round;
 }
 
-// #topbar-wrapper {
-//   left: 260px;
-// }
+#topbar-wrapper {
+  left: 260px;
+}
 
 
 // ------------------------------
 // -------- SIZE < 850px --------
 // ------------------------------
-// @media all and (max-width: 849px) {
-//   [#{$sidebar-display}] {
+@media all and (max-width: 849px) {
+  [#{$sidebar-display}] {
 
-//     #topbar-wrapper,
-//     #main-wrapper {
-//       transform: translateX(#{$sidebar-width-medium});
-//     }
-//   }
+    #topbar-wrapper,
+    #main-wrapper {
+      transform: translateX(#{$sidebar-width-medium});
+    }
+  }
 
-//   #sidebar {
-//     transform: translateX(-#{$sidebar-width-medium}); // hide
-//     -webkit-transform: translateX(-#{$sidebar-width-medium});
-//   }
-// }
+  #sidebar {
+    transform: translateX(-#{$sidebar-width-medium}); // hide
+    -webkit-transform: translateX(-#{$sidebar-width-medium});
+  }
+}
 
 
 // ------------------------------
 // -------- 850px < SIZE --------
 // ------------------------------
-// @media all and (min-width: 850px) {
-//   #main-wrapper {
-//     margin-left: $sidebar-width-medium;
-//   }
-// }
+@media all and (min-width: 850px) {
+  #main-wrapper {
+    margin-left: $sidebar-width-medium;
+  }
+}
 
 
 // -------------------------------
