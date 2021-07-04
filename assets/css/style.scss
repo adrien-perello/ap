@@ -1,11 +1,10 @@
 ---
 ---
 
-$sidebar-width-large: 550px;
 
 @import "{{ site.theme }}";
 
-// $sidebar-width-large: 500px;
+$sidebar-width-large: 700px;
 
 #sidebar {
   background: url("../img/bg.jpg");
