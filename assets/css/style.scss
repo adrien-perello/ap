@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}", "variables";
+$sidebar-width-large: 500px;
+
+@import "{{ site.theme }}";
 
 $sidebar-width-large: 500px;
 
