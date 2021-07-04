@@ -1,9 +1,9 @@
 ---
 ---
 
-$sidebar-width-large: 500px;
-
 @import "{{ site.theme }}", "variables";
+
+$sidebar-width-large: 500px;
 
 #sidebar {
   background: url("../img/bg.jpg");
