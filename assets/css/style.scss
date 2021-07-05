@@ -2,19 +2,11 @@
 ---
 
 
-$sidebar-width: 350px !default;        // the basic width
-$sidebar-width-small: 290px !default;  // screen width: >= 850px, <= 1199px (iPad landscape)
-$sidebar-width-large: 550px !default;  // screen width: >= 1650px
-
-
 {% include_relative variables-hook.scss %}
 
 @import "jekyll-theme-chirpy";
 
-
-
-
-$sidebar-width: 350px !default;        // the basic width
+$sidebar-width: 360px !default;        // the basic width
 $sidebar-width-small: 290px !default;  // screen width: >= 850px, <= 1199px (iPad landscape)
 $sidebar-width-large: 550px !default;  // screen width: >= 1650px
 
