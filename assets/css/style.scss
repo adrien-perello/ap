@@ -2,7 +2,7 @@
 ---
 
 
-$tab-count: {{ site.tabs | size | plus: 2 }}; // to be deleted after theme jelyll 4.1
+$tab-count: {{ site.tabs | size | plus: 1 }}; // to be deleted after theme jelyll 4.1
 
 @import "{{ site.theme }}";
 
