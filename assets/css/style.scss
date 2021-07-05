@@ -2,12 +2,29 @@
 ---
 
 
-{% include_relative variables-hook.scss %}
-
 @import "{{ site.theme }}";
 
 #sidebar {
   background: url("../img/bg.jpg");
-  // background-attachment: scroll;
   background-repeat: round;
 }
+
+
+// @media all and (min-width: 1650px) {
+//   #sidebar {
+    
+//     .profile-wrapper {
+//       %profile-ml {
+//         margin-left: 15rem;
+//       }
+//     }
+
+//     ul {
+//       padding-left: 13rem;
+//     }
+
+//     .sidebar-bottom {
+//       padding-left: 13rem;
+//     }
+//   }
+// }
