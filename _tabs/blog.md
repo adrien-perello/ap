@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My blog
+title: Blog
 icon: fas fa-edit
 order: 4
 ---
