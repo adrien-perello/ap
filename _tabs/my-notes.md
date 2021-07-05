@@ -2,6 +2,6 @@
 layout: page
 title: My notes
 icon: fas fa-edit
-order: 3
+order: 4
 ---
 
