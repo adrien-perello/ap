@@ -4,6 +4,7 @@
 
 $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
-$sidebar-width: 350px;
-$sidebar-width-large: 650px;
+$sidebar-width: 350px !default;        // the basic width
+$sidebar-width-small: 290px !default;  // screen width: >= 850px, <= 1199px (iPad landscape)
+$sidebar-width-large: 550px !default;  // screen width: >= 1650px
 
