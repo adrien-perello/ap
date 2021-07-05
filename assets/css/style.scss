@@ -10,6 +10,31 @@
 }
 
 
+// --------------------------------
+//            < 849px
+// --------------------------------
+// normal side bar but sliding
+
+
+// --------------------------------
+//       850px < SIZE < 1199px
+// --------------------------------
+// constant small side bar, no need for adjustment
+// @media all and (min-width: 850px) and (max-width: 1199px)
+
+
+// --------------------------------
+//       850px < SIZE < 1199px
+// --------------------------------
+// constant normal side bar, no need for adjustment
+// @media all and (min-width: 1200px)
+
+
+
+// --------------------------------
+//          1650px < SIZE
+// --------------------------------
+// constant large side bar, adjust 
 // @media all and (min-width: 1650px) {
 //   #sidebar {
     
