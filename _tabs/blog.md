@@ -11,4 +11,4 @@ My blog is a **digital garden**, not a blog.
 
 They are inspired by the [Zettelkasten method](https://en.wikipedia.org/wiki/Zettelkasten) (made famous in part by the sociologist Niklas Luhmann), and are gaining momentum with the use of wikis and [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph) as well as with the surge of digital tools such as [Roam Research](https://roamresearch.com/), [Obsidian](https://obsidian.md/) or [TiddlyWiki](https://tiddlywiki.com/). You can find more resource on the topic [here](https://github.com/MaggieAppleton/digital-gardeners).
 
-<a class="tag" href="../notes/">My digital Garden</a>
+<a class="tag" href="https://adrien-perello.github.io/notes/">My digital Garden</a>
