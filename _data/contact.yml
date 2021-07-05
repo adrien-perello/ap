@@ -25,7 +25,7 @@
 #   type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your mastodon account page
-# -
-#   type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+-
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  ''                  # Fill with your stackoverflow homepage
