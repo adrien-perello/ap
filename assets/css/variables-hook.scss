@@ -4,5 +4,5 @@
 
 $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
-$sidebar-width-large: 650px !default;  // screen width: >= 1650px
+$sidebar-width-large: 650px;
 
